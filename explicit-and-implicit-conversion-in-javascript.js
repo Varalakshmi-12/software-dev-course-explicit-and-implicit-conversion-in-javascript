@@ -28,5 +28,16 @@ if (isValid) {
 }
 
 let age = "25";
-let totalAge = age + 5;
+let totalAge = Number(age) + 5; //using Number() converted string age into number//
 console.log("Total Age: " + totalAge);
+
+
+Explicit conversion:
+let num = 123;
+console.log(num.toString()); 
+
+
+
+
+Implicit conversion:
+console.log(5 == "5"); 
